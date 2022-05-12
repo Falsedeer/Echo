@@ -2,7 +2,7 @@
 DESC:　An echo server embed with hexdump
 
 # Demonstartion:
-Execute echo_server.py,  
+Execute echo.py,  
 and it will receive any incomming connection on all interface to server_ip:6666  
 <img src="https://github.com/Falsedeer/Echo/blob/c6eaa295e946b169477957e3efd0f805c9719bc6/result.png"></img>
 After that,  
