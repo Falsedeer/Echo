@@ -1,5 +1,5 @@
 # Echo
-DESC:　An echo server embed with hexdump
+An echo server embed with hexdump
 
 # Demonstartion:
 Execute echo.py,  
