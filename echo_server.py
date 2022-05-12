@@ -4,6 +4,8 @@ import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # tcp
 # set server to accept all incoming connection on port 6666
+# make port reuseable
+server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server.bind(('', 6666))
 server.listen(5)
 
